@@ -1,0 +1,266 @@
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ nav {
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .div-nav-img-p {
+    display: flex;
+    align-items: center;
+ }
+
+ .div-nav-img-p p{
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    padding-left: 10px;
+ }
+
+ ul {
+    display: flex;
+    list-style-type: none;
+ }
+
+ a {
+    text-decoration: none;
+    padding: 10px;
+ }
+
+ .ul-nav a {
+    color: black;
+ }
+
+ .a-login-nav {
+    color: #4caf4f;
+    border: 1px;
+    border-style: solid;
+    border-color: #4caf4f;
+    border-radius: 5px;
+    margin-right: 3px;
+ }
+
+ .a-singup-nav {
+    background-color: #4caf4f;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-left: 3px;
+ }
+
+ .hero {
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+ }
+
+ .hero h1{
+    font-size: 48px;
+    color: #585858;
+ }
+
+ .hero span {
+    color: #4caf4f;
+ }
+
+ .hero p{
+    color: #585858;
+ }
+
+ .hero a {
+    background-color: #4caf4f;
+    color: #ffffff;
+    border-radius: 5px;
+ }
+
+ .hero div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+ }
+
+ .section-client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .section-client div {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+ }
+
+ .section-client h2 {
+    color: #585858;
+    font-size: 32px;
+    margin-bottom: 0;
+ }
+
+ .section-client p {
+    color: #585858;
+ }
+
+ .section-membership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .section-membership h2 {
+    color: #585858;
+    font-size: 32px;
+    margin-bottom: 0;
+    text-align: center;
+ }
+
+.section-membership-card-global h3 {
+    color: #585858;
+    font-size: 32px;
+    margin-bottom: 0;
+    text-align: center;
+ }
+
+.section-membership p {
+    color: #585858;
+ }
+
+ .section-membership-card-global{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+ }
+
+ .section-membership-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 35px;
+ }
+
+ .section-membership-card p {
+    text-align: center;
+ }
+
+ .section-pixelgrade {
+    display: flex;
+    padding: 100px;
+    justify-content: space-evenly;
+ }
+
+.section-pixelgrade h2 {
+    color: #585858;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.section-pixelgrade p {
+    color: #585858;
+}
+
+.section-pixelgrade span{
+    color: #4caf4f;
+}
+
+.section-pixelgrade a{
+    background-color: #4caf4f;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.section-pixelgrade div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    width: 30%;
+}
+
+.section-help {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f7fa;
+    align-items: center;
+}
+
+.section-help h2, .section-help h3 {
+   color: #585858;
+   font-size: 32px;
+   margin-bottom: 0;
+}
+
+.section-help span{
+   color:#4caf4f;
+}
+
+.section-help p {
+   color: #585858;
+}
+
+.section-help-card{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section-help-card-line {
+    display: flex;
+}
+
+
+
+.section-help-card-line-div{
+   display: flex;
+   align-items: center;
+   padding: 30px;
+}
+
+.section-help-card-line-div img {
+   width: 48px;
+   height: 48px;
+   margin-right: 20px;
+}
+
+.section-feedback {
+   display: flex;
+   padding: 50px;
+   background-color: #f5f7fa;
+   justify-content: center;
+}
+
+.section-feedback h3 {
+   color: #4caf4f;
+   font-size: 22px;
+}
+
+.section-feedback a {
+   color: #4caf4f;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.section-feedback p {
+   color: #585858;
+}
+
+
+.section-feedback-div{
+   margin-left: 15px;
+   width: 50%;
+}
+
+.section-feedback-div-img {
+   display: flex;
+   justify-content: space-between;
+   
+}
+
